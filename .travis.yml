@@ -6,7 +6,7 @@ compiler:
 
 before_install:
         - sudo apt-get update -qq
-        - sudo apt-get install -qq libsystemd-dev
+        - sudo apt-get install -qq libsystemd-daemon-dev
 
 dist: trusty
 sudo: required
